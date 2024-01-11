@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Natasha Putri Fedenan">
+<meta name="dcterms.date" content="2024-01-05">
+
+<title>Melihat Hubungan antara Inflasi dengan Rata‑Rata Pengeluaran per Kapita Sebulan Untuk Makanan dan Bukan Makanan di Daerah Perkotaan dan Perdesaan Menurut Provinsi pada Tahun 2023</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Melihat Hubungan antara Inflasi dengan Rata‑Rata Pengeluaran per Kapita Sebulan Untuk Makanan dan Bukan Makanan di Daerah Perkotaan dan Perdesaan Menurut Provinsi pada Tahun 2023</h1>
+<p class="subtitle lead">Metode Penelitian Politeknik APP Jakarta</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Natasha Putri Fedenan </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 5, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p><img src="poltekapp.jpg" class="img-fluid"></p>
+<section id="pendahuluan" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="pendahuluan"><span class="header-section-number">1</span> Pendahuluan</h2>
+<section id="latar-belakang" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="latar-belakang"><span class="header-section-number">1.1</span> Latar Belakang</h3>
+<p>Inflasi sebagai indeks kenaikan harga barang dan jasa secara umum memiliki dampak signifikan terhadap daya beli masyarakat. Oleh karena itu, penting untuk mengeksplorasi bagaimana tingkat inflasi dapat mempengaruhi pengeluaran per kapita sebulan bagi masyarakat di tingkat provinsi. Inflasi mempunyai dampak yang besar karena menentukan harga pasar atas segala sesuatu yang dibutuhkan masyarakat dalam kehidupan sehari-hari. Melalui analisis ini, dapat diidentifikasi daerah-daerah yang rentan terhadap perubahan ekonomi dan merancang kebijakan yang sesuai.</p>
+<p>Inflasi, sebagai faktor yang cukup berpengaruh dan tidak dapat dihindari dalam menentukan nilai uang, seharusnya menjadi pertimbangan utama saat merencanakan keuangan, termasuk perencanaan keuangan rumah tangga. Kenaikan harga barang konsumsi dan jasa akibat inflasi dapat berdampak pada peningkatan anggaran pengeluaran, yang pada gilirannya dapat mengurangi alokasi anggaran untuk menabung dan potensial mengganggu rencana keuangan di masa depan. Ketidakperhitungan terhadap inflasi dapat berakibat pada ketidakmencapaian tujuan yang telah ditetapkan dalam perencanaan keuangan keluarga.</p>
+</section>
+<section id="ruang-lingkup" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="ruang-lingkup"><span class="header-section-number">1.2</span> Ruang Lingkup</h3>
+<p>Penelitian ini memfokuskan pada hubungan antara inflasi dengan pengeluaran per kapita sebulan di tingkat provinsi di Indonesia pada tahun 2023. Data yang digunakan mencakup indeks inflasi dan statistik pengeluaran rumah tangga. Ruang lingkup penelitian mencakup identifikasi pola, perbedaan, dan potensi faktor-faktor yang memengaruhi hubungan antara inflasi dan pengeluaran per kapita di tingkat provinsi pada Tahun 2023.</p>
+</section>
+<section id="rumusan-masalah" class="level3" data-number="1.3">
+<h3 data-number="1.3" class="anchored" data-anchor-id="rumusan-masalah"><span class="header-section-number">1.3</span> Rumusan Masalah</h3>
+<ol type="1">
+<li>Apakah terdapat hubungan antara Inflasi dengan Rata‑Rata Pengeluaran per Kapita Sebulan Untuk Makanan dan Bukan Makanan di Daerah Perkotaan dan Perdesaan Menurut Provinsi pada Tahun 2023?</li>
+<li>Apakah Inflasi berpengaruh pada Rata‑Rata Pengeluaran per Kapita Sebulan Untuk Makanan dan Bukan Makanan di Daerah Perkotaan dan Perdesaan Menurut Provinsi pada Tahun 2023?</li>
+</ol>
+</section>
+<section id="tujuan-dan-manfaat" class="level3" data-number="1.4">
+<h3 data-number="1.4" class="anchored" data-anchor-id="tujuan-dan-manfaat"><span class="header-section-number">1.4</span> Tujuan dan manfaat</h3>
+<p>Tujuan utama penelitian ini adalah untuk menganalisi nilai inflasi pada tahun 2023 dan melihat tingkat pengeluaran per kapita sebulan di setiap provinsi di Indonesia pada tahun 2023 dan juga memberikan pemahaman yang lebih baik tentang hubungan antara inflasi dan pengeluaran per kapita sebulan pada tahun 2023.</p>
+<p>Manfaat dari dilakukannya penelitian ini diharapkan dapat memberikan pemahaman lebih baik dan relevan terkait tingkat inflasi dan Rata‑Rata Pengeluaran per Kapita Sebulan Untuk Makanan dan Bukan Makanan di Daerah Perkotaan dan Perdesaan Menurut Provinsi pada Tahun 2023, serta memberi pemahaman terkait hubungan antara kedua hal tersebut dari segi ekonomi.</p>
+</section>
+<section id="package" class="level3" data-number="1.5">
+<h3 data-number="1.5" class="anchored" data-anchor-id="package"><span class="header-section-number">1.5</span> Package</h3>
+<p>Penelitian ini menggunakan Packages antara lain sebagai berikut:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"readxl"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'readxl' was built under R version 4.3.2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"ggplot2"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'ggplot2' was built under R version 4.3.2</code></pre>
+</div>
+</div>
+</section>
+<section id="studi-pustaka" class="level3" data-number="1.6">
+<h3 data-number="1.6" class="anchored" data-anchor-id="studi-pustaka"><span class="header-section-number">1.6</span> Studi Pustaka</h3>
+<p>Sejumlah penelitian telah mencoba menganalisis dampak tingkat inflasi terhadap pengeluaran per kapita sebulan di tingkat provinsi dengan fokus pada tahun 2023, dengan tujuan untuk memahami variabilitas dan pola perilaku yang mungkin terjadi.</p>
+<p>Selain itu, beberapa penelitian telah menyoroti pentingnya mempertimbangkan faktor-faktor lain yang mungkin memoderasi atau memperkuat hubungan antara inflasi dan pengeluaran per kapita sebulan, seperti kebijakan fiskal dan moneter, tingkat pertumbuhan ekonomi, dan struktur industri regional.</p>
+<p>Menurut Nopirin (2009: 25), in-flasi adalah proses kenaikan harga-harga umum barang-barang secara terus menerus. Dalam artian bahwa harga-harga berbagai macam barang itu mengalami kenaikan yang sama. Hukum ekonomi mengenai hu-bungan konsumsi makanan dan kon-sumsi non makanan terhadap kese-jahteraan dikemukakan oleh Engel. Menurut Engel, bila selera tidak ber-beda maka persentase pengeluaran untuk makanan cenderung menurun dengan semakin meningkatnya pendapatan.</p>
+<p>Oleh karena itu, studi pustaka ini menyajikan landasan teoritis dan metodologis yang kokoh untuk menjelajahi hubungan antara inflasi dengan pengeluaran per kapita sebulan menurut provinsi pada tahun 2023. Dengan mempertimbangkan penelitian terdahulu dan menggunakan pendekatan analisis yang tepat, diharapkan studi ini dapat memberikan wawasan berharga untuk pemahaman lebih lanjut terhadap dinamika ekonomi regional di Indonesia pada periode yang bersangkutan.</p>
+</section>
+</section>
+<section id="metode-penelitian" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="metode-penelitian"><span class="header-section-number">2</span> Metode Penelitian</h2>
+<section id="data" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="data"><span class="header-section-number">2.1</span> Data</h3>
+<p>Data yang saya gunakan adalah data mengenai Inflasitiap Provinsi dan Rata‑Rata Pengeluaran per Kapita Sebulan Untuk Makanan dan Bukan Makanan di Daerah Perkotaan dan Perdesaan Menurut Provinsi pada Tahun 2023</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Provinsi</th>
+<th>Inflasi(%)</th>
+<th>Rerata pengeluaran per-kapita (Rp)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aceh</td>
+<td>0.09</td>
+<td>1225976,196</td>
+</tr>
+<tr class="even">
+<td>Sumatera Utara</td>
+<td>2.25</td>
+<td>1305339,35417501</td>
+</tr>
+<tr class="odd">
+<td>Sumatera Barat</td>
+<td>2.47</td>
+<td>1411823,46156525</td>
+</tr>
+<tr class="even">
+<td>Riau</td>
+<td>3.26</td>
+<td>1527549,35463015</td>
+</tr>
+<tr class="odd">
+<td>Jambi</td>
+<td>3.27</td>
+<td>1424125,40045519</td>
+</tr>
+<tr class="even">
+<td>Sumatera Selatan</td>
+<td>3.17</td>
+<td>1209985,9651735</td>
+</tr>
+<tr class="odd">
+<td>Bengkulu</td>
+<td>3.08</td>
+<td>1332558,38021223</td>
+</tr>
+<tr class="even">
+<td>Lampung</td>
+<td>3.47</td>
+<td>1203017,30554308</td>
+</tr>
+<tr class="odd">
+<td>Bangka Belitung</td>
+<td>3.87</td>
+<td>1727549,80459025</td>
+</tr>
+<tr class="even">
+<td>Kepulauan Riau</td>
+<td>0.44</td>
+<td>1989702,53353369</td>
+</tr>
+<tr class="odd">
+<td>DKI Jakarta</td>
+<td>2.33</td>
+<td>2791715,75397124</td>
+</tr>
+<tr class="even">
+<td>Jawa Barat</td>
+<td>2.35</td>
+<td>1567666,15370039</td>
+</tr>
+<tr class="odd">
+<td>Jawa Tengah</td>
+<td>5.63</td>
+<td>1209906,17759961</td>
+</tr>
+<tr class="even">
+<td>DI Yogyakarta</td>
+<td>2.44</td>
+<td>1731559,93266979</td>
+</tr>
+<tr class="odd">
+<td>Jawa Timur</td>
+<td>4.88</td>
+<td>1323486,25558119</td>
+</tr>
+<tr class="even">
+<td>Banten</td>
+<td>3.03</td>
+<td>1743686,86108108</td>
+</tr>
+<tr class="odd">
+<td>Bali</td>
+<td>5.32</td>
+<td>1741522,78235967</td>
+</tr>
+<tr class="even">
+<td>Nusa Tenggara Barat</td>
+<td>2.80</td>
+<td>1260820,06686304</td>
+</tr>
+<tr class="odd">
+<td>Nusa Tenggara Timur</td>
+<td>4.10</td>
+<td>961372,225842616</td>
+</tr>
+<tr class="even">
+<td>Kalimantan Barat</td>
+<td>2.02</td>
+<td>1345552,26246121</td>
+</tr>
+<tr class="odd">
+<td>Kalimantan Tengah</td>
+<td>0.30</td>
+<td>1525785,00534261</td>
+</tr>
+<tr class="even">
+<td>Kalimantan Selatan</td>
+<td>2.43</td>
+<td>1457344,31928447</td>
+</tr>
+<tr class="odd">
+<td>Kalimantan Timur</td>
+<td>3.46</td>
+<td>1980274,8643472</td>
+</tr>
+<tr class="even">
+<td>Kalimantan Utara</td>
+<td>2.44</td>
+<td>1693576,899969</td>
+</tr>
+<tr class="odd">
+<td>Sulawesi Utara</td>
+<td>6.61</td>
+<td>1315176,48638862</td>
+</tr>
+<tr class="even">
+<td>SulawesiTengah</td>
+<td>2.95</td>
+<td>1173679,46532413</td>
+</tr>
+<tr class="odd">
+<td>Sulawesi Selatan</td>
+<td>4.33</td>
+<td>1252551,24238984</td>
+</tr>
+<tr class="even">
+<td>Sulawesi Tenggara</td>
+<td>3.66</td>
+<td>1172739,17871271</td>
+</tr>
+<tr class="odd">
+<td>Gorontalo</td>
+<td>3.06</td>
+<td>1228893,40204045</td>
+</tr>
+<tr class="even">
+<td>Sulawesi Barat</td>
+<td>2.27</td>
+<td>1036520,07871787</td>
+</tr>
+<tr class="odd">
+<td>Maluku</td>
+<td>6.31</td>
+<td>1238170,28016571</td>
+</tr>
+<tr class="even">
+<td>Maluku Utara</td>
+<td>4.31</td>
+<td>1317159,41945245</td>
+</tr>
+<tr class="odd">
+<td>Papua Barat</td>
+<td>5.53</td>
+<td>1598253,62250542</td>
+</tr>
+<tr class="even">
+<td>Papua</td>
+<td>2.67</td>
+<td>1509992,40103407</td>
+</tr>
+</tbody>
+</table>
+<p>Penelitian ini menggunakan data yang bersumber dari Badan Pusat Statistik (BPS)</p>
+<p>Baca Data</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"readxl"</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>dat<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">"inflasi dan rata rata pengeluaran.xlsx"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...3`</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(dat)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 3
+  x            y ...3            
+  &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;           
+1 0.09  1225976. Aceh            
+2 2.25  1305339. Sumatera Utara  
+3 2.47  1411823. Sumatera Barat  
+4 3.26  1527549. Riau            
+5 3.72  1424125. Jambi           
+6 3.17  1209986. Sumatera Selatan</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"ggplot2"</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>dat,<span class="fu">aes</span>(<span class="at">x=</span>x,<span class="at">y=</span>y))<span class="sc">+</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_point</span>(<span class="at">color=</span><span class="st">"green"</span>,<span class="at">size=</span><span class="dv">2</span>)<span class="sc">+</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="st">"Title 1 Melihat Hubungan antara Inflasi dengan Rata‑Rata Pengeluaran per Kapita Sebulan Untuk Makanan dan Bukan Makanan di Daerah Perkotaan dan Perdesaan Menurut Provinsi pada Tahun 2023"</span>,</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">x=</span><span class="st">"inflasi"</span>,</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">y=</span><span class="st">"Rata rata pengeluaran per kapita Provinsi 2023"</span>,</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"sumber:Badan Pusat Statistik"</span>)<span class="sc">+</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme_dark</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="metode-analisis" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="metode-analisis"><span class="header-section-number">2.2</span> Metode analisis</h3>
+<p>Metode yang dipilih adalah regresi univariat atau Ordinary Least Square (OLS) dengan 1 variabel independen. Penelitian ini merbaksud mencari hubungan antara Inflasi dan Rata‑Rata Pengeluaran per Kapita Sebulan Untuk Makanan dan Bukan Makanan di Daerah Perkotaan dan Perdesaan Menurut Provinsi Pada Tahun 2023.</p>
+<p>Spesifikasi yang dilakukan adalah:</p>
+<p><span class="math display">\[
+y_{t}=\beta_0 + \beta_1 x_t+\mu_t
+\]</span> di mana <span class="math inline">\(y_t\)</span> adalah Rata rata Pengeluaran per kapita sebulan dan <span class="math inline">\(x_t\)</span> adalah Inflasi.</p>
+</section>
+</section>
+<section id="pembahasan" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="pembahasan"><span class="header-section-number">3</span> Pembahasan</h2>
+<section id="pembahasan-masalah" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="pembahasan-masalah"><span class="header-section-number">3.1</span> Pembahasan Masalah</h3>
+<p>Dalam penelitian ini, analisis yang saya gunakan adalah metode OLS untuk mengaitkan data Inflasi provinsi dengan angka rata rata pengeluaran per kapita sebulan untuk mkanan dan non-makanan di wilayah provinsi pada tahun 2023. Data inflasi provinsi dan data rata rata pengeluaran per kapita sebulan tersebut telah digabungkan dan disesuaikan untuk analisis regresi.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"readxl"</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>dat<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">"inflasi dan rata rata pengeluaran.xlsx"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+• `` -&gt; `...3`</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(dat)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 3
+  x            y ...3            
+  &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;           
+1 0.09  1225976. Aceh            
+2 2.25  1305339. Sumatera Utara  
+3 2.47  1411823. Sumatera Barat  
+4 3.26  1527549. Riau            
+5 3.72  1424125. Jambi           
+6 3.17  1209986. Sumatera Selatan</code></pre>
+</div>
+</div>
+</section>
+<section id="analisis-masalah" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="analisis-masalah"><span class="header-section-number">3.2</span> Analisis Masalah</h3>
+<p>Tampilan data yang dihasilkan dari regresi tersebut adalah sebagai berikut.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>reg1<span class="ot">&lt;-</span><span class="fu">lm</span>(x<span class="sc">~</span>y,<span class="at">data=</span>dat)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(reg1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = x ~ y, data = dat)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.3883 -0.7724 -0.1649  0.8080  3.2136 
+
+Coefficients:
+              Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)  4.605e+00  1.157e+00   3.978 0.000372 ***
+y           -9.187e-07  7.740e-07  -1.187 0.243940    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.522 on 32 degrees of freedom
+Multiple R-squared:  0.04218,   Adjusted R-squared:  0.01225 
+F-statistic: 1.409 on 1 and 32 DF,  p-value: 0.2439</code></pre>
+</div>
+</div>
+</section>
+<section id="kesimpulan" class="level3" data-number="3.3">
+<h3 data-number="3.3" class="anchored" data-anchor-id="kesimpulan"><span class="header-section-number">3.3</span> Kesimpulan</h3>
+<p>Dari hasil regresi yang sudah dilakukan dapat dilihat bahwa adanya hubungan antara Inflasi dengan Rata‑Rata Pengeluaran per Kapita Sebulan Untuk Makanan dan Bukan Makanan di Daerah Perkotaan dan Perdesaan Menurut Provinsi, meskipun tidak signifikan. Dimana setiap adanya peningkatan pendapatan per kapita sebulan di wilayah provinsi sebesar Rp.500.000, maka terdapat juga penurunan inflansi sebesar 9.187 persen.</p>
+<p>Dari hasil tersebut, dapat disimpulkan bahwa Inflasi berpengaruh negatif tidak signifikan terhadap angka Rata‑Rata Pengeluaran per Kapita Sebulan Untuk Makanan dan Bukan Makanan di Daerah Perkotaan dan Perdesaan Menurut Provinsi pada tahun 2023.</p>
+</section>
+<section id="referensi" class="level3" data-number="3.4">
+<h3 data-number="3.4" class="anchored" data-anchor-id="referensi"><span class="header-section-number">3.4</span> Referensi</h3>
+<p>Inflasi. (t.t.). Diambil 11 Januari 2024, dari https://www.bi.go.id/id/fungsi-utama/moneter/inflasi/default.aspx</p>
+<p>Pengertian Inflasi Hingga Dampak Pada Perencanaan Keuangan. (t.t.). Insurance Site. Diambil 11 Januari 2024, dari https://www.manulife.co.id/id/artikel/pengertian-inflasi-hingga-dampak-pada-perencanaan-keuangan.html</p>
+<p>Rata Rata Pengeluaran per Kapita Sebulan Untuk Makanan dan Bukan Makanan di Daerah Perkotaan dan Perdesaan Menurut Provinsi (rupiah), 2011-2023—Tabel Statistik—Badan Pusat Statistik Indonesia. (t.t.). Diambil 11 Januari 2024, dari https://www.bps.go.id/id/statistics-table/1/OTQ1IzE=/rata-rata-pengeluaran-per-kapita-sebulan-untuk-makanan-dan-bukan-makanan-di-daerah-perkotaan-dan-perdesaan-menurut-provinsi–rupiah—2011-2023.html</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
